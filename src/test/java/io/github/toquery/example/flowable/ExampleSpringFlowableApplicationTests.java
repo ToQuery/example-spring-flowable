@@ -1,4 +1,4 @@
-package io.github.toquery.examplespringflowable;
+package io.github.toquery.example.flowable;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
