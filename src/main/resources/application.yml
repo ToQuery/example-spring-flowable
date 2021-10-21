@@ -1,0 +1,8 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # serverTimezone=Asia/Shanghai ???URL??????
+    url: jdbc:mysql://${DB_MYSQL_HOST}:3306/example_spring_flowable?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
+    username: ${DB_MYSQL_USER}
+    password: ${DB_MYSQL_PASSWORD}
